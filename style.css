@@ -1,7 +1,8 @@
 body{
  background-color: #FFF5F9;
- font-family: Arial, sans-serif;
+ 
 }
+
 
 
 
@@ -11,7 +12,9 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, sans-serif;
 }
+
 
 .btn-empezar {
   margin-top: 20px;
@@ -22,7 +25,9 @@ header{
   border-radius: 30px;
   font-size: 18px;
   font-weight: bold;
+  font-family: Arial, sans-serif;
 }
+
 
 .btn-empezar:hover{
     background-color: #ec4188;
@@ -60,4 +65,10 @@ img{
   header{
     margin-top: 250px ;
   }
+
+  h1, h2, h3, h4, h5, h6{
+    font-family: Arial, sans-serif;
+}
+ 
+
 }
